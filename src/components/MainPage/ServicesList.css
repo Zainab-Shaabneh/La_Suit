@@ -1,0 +1,48 @@
+.services-list {
+  padding: 20px;
+  text-align: center;
+}
+
+.services-list h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.service-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.service-image {
+  width: 120px;
+  height: 100px;
+  border-radius: 20%;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.service-info {
+  text-align: left;
+}
+
+.service-info h4 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.service-info p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}

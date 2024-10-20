@@ -1,0 +1,35 @@
+.promo-card {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.promo-image {
+  width: 380px;
+  height: 253px;
+  top: 116px;
+  left: 24px;
+  border-radius: 16px;
+}
+
+.promo-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.promo-text h2 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.promo-text p {
+  margin: 5px 0 0;
+  font-size: 16px;
+}
